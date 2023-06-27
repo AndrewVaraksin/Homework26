@@ -1,0 +1,21 @@
+.block {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  position: relative;
+  left: 45vw;
+  top: 40vh;
+}
+
+.block{
+  transition: 3s 2s;
+}
+/* .block{
+  transition-duration: 3s;
+  transition-delay: 2s;
+  transition-property: border-color;
+} */
+
+.block:hover{
+  border-color: yellow;
+}
